@@ -31,7 +31,7 @@ const timetextFn = () => {
 let scoer = 0;
 //input value
 input.addEventListener("input", (e) => {
-  let inpValue = e.target.value;
+  let inpValue = e.target.value.toLowerCase();
   if (inpValue.length !== random.length) {
     return;
   } else {
